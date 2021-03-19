@@ -1,6 +1,6 @@
 package edu.stanford.crypto.cs251.blockchain;
 
-import com.sun.istack.internal.Nullable;
+//import com.sun.istack.internal.Nullable;
 
 import java.text.MessageFormat;
 
@@ -12,7 +12,7 @@ public class Block {
     private final double blockValue;
 
 
-    Block(@Nullable Block previousBlock, String minedBy, double blockValue) {
+    Block(Block previousBlock, String minedBy, double blockValue) {
         this.previousBlock = previousBlock;
         this.height = previousBlock == null ? 0 : previousBlock.height + 1;
         this.minedBy = minedBy;
@@ -24,7 +24,7 @@ public class Block {
      *
      * @return Block the previous Block
      */
-    @Nullable
+//    @Nullable
     public Block getPreviousBlock() {
         return previousBlock;
     }

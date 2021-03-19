@@ -1,0 +1,15 @@
+edu/stanford/crypto/cs251/miners/MajorityMiner.class
+edu/stanford/crypto/cs251/blockchain/SimulationRandom.class
+edu/stanford/crypto/cs251/blockchain/LognormalReward.class
+edu/stanford/crypto/cs251/miners/CompliantMiner.class
+edu/stanford/crypto/cs251/blockchain/BitcoinNetwork$BlockMessage.class
+edu/stanford/crypto/cs251/miners/BaseMiner.class
+edu/stanford/crypto/cs251/blockchain/SimulationUtils.class
+edu/stanford/crypto/cs251/blockchain/BlockReward.class
+edu/stanford/crypto/cs251/blockchain/NormalChurnFunction.class
+edu/stanford/crypto/cs251/blockchain/NetworkStatistics.class
+edu/stanford/crypto/cs251/miners/Miner.class
+edu/stanford/crypto/cs251/blockchain/Block.class
+edu/stanford/crypto/cs251/blockchain/ChurnFunction.class
+edu/stanford/crypto/cs251/blockchain/BitcoinNetwork.class
+edu/stanford/crypto/cs251/blockchain/BitcoinNetwork$1.class

@@ -2,6 +2,7 @@ package edu.stanford.crypto.cs251.miners;
 
 import com.google.common.collect.ImmutableList;
 import edu.stanford.crypto.cs251.blockchain.*;
+import org.fest.assertions.Assertions;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -46,7 +47,7 @@ public class MiningSimulation {
 
 
     //TODO: Uncomment this part when testing your miners.
-/*    @Test
+    @Test
     public void simulate51PercentAttack1() {
         Miner attacker = new MajorityMiner("Attacker", 520, 1);
         Miner miner2 = new CompliantMiner("Miner2", 200, 1);
@@ -77,7 +78,7 @@ public class MiningSimulation {
         Map<String, Double> relativeProfits = runSimulation(miners, BlockReward.ONE, churn);
         Assertions.assertThat(relativeProfits.get(attacker.getId())).isGreaterThan(.6);
     }
-
+/*
     @Test
     public void simulateSelfishMining1() {
         Miner attacker = new SelfishMiner("Attacker", 34, 1);

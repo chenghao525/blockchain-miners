@@ -1,0 +1,13 @@
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/blockchain/BlockReward.java
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/blockchain/Block.java
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/blockchain/NetworkStatistics.java
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/miners/CompliantMiner.java
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/miners/Miner.java
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/blockchain/BitcoinNetwork.java
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/blockchain/SimulationRandom.java
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/miners/MajorityMiner.java
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/miners/BaseMiner.java
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/blockchain/SimulationUtils.java
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/blockchain/ChurnFunction.java
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/blockchain/LognormalReward.java
+/Users/chenghaosun/Documents/local_github/blockchain-miners/src/main/java/edu/stanford/crypto/cs251/blockchain/NormalChurnFunction.java
