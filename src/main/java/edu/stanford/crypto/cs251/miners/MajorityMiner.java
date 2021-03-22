@@ -14,27 +14,27 @@ public class MajorityMiner extends BaseMiner implements Miner {
 
     @Override
     public Block currentlyMiningAt() {
-        return currentHead;
+        return this.currentHead;
     }
 
     @Override
     public Block currentHead() {
-        return currentHead;
+        return this.currentHead;
     }
 
     @Override
     public void blockMined(Block block, boolean isMinerMe) {
         if(isMinerMe) {
-            if (block.getHeight() > currentHead.getHeight()) {
+            if (block.getHeight() > this.currentHead.getHeight()) {
                 this.currentHead = block;
             }
         }
         else{
-            if (currentHead == null) {
-                currentHead = block;
+            if (this.currentHead == null) {
+                this.currentHead = block;
             }
-            else if (this.getHashRate() / this.totalHashRate < 0.51 && block.getHeight() > currentHead.getHeight())    {
-                currentHead = block;
+            else if (this.getHashRate() / this.totalHashRate < 0.51 && block.getHeight() > this.currentHead.getHeight())    {
+                this.currentHead = block;
             } else {
                 return;
             }
