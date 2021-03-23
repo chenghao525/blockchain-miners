@@ -78,7 +78,7 @@ public class MiningSimulation {
         Map<String, Double> relativeProfits = runSimulation(miners, BlockReward.ONE, churn);
         Assertions.assertThat(relativeProfits.get(attacker.getId())).isGreaterThan(.6);
     }
-/*
+
     @Test
     public void simulateSelfishMining1() {
         Miner attacker = new SelfishMiner("Attacker", 34, 1);
@@ -146,7 +146,7 @@ public class MiningSimulation {
         Assertions.assertThat(attackerProfits).isGreaterThan(.31);
     }
 
-*/
+
     /**
      * Runs the simulation and returns a relative
      *
